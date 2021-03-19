@@ -18,7 +18,7 @@ OURA_TOKEN_URL = 'https://api.ouraring.com/oauth/token'
 
 @app.route("/")
 def home():
-    return "Hello i am oura ring <h1>eeeeeeeeeeeeeeeeeeeeeee<h1>"
+    return "Hello i am oura ring <h1>eeeeeeeeeeeeeeeeeee<h1>"
 
 @app.route('/login')
 def oura_login():
